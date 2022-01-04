@@ -32,6 +32,8 @@ There are also countless writeups and walkthroughs already out there (like the e
 * In the `format4` level, I have no idea why it won't work when calling the binary from python with `Popen` (See source for details).
 
   The payload itself works, if you have any idea why the python code won't, I would love to know :)
+  
+* Also the Code is far from polished and is quite ugly at times. So be warned.
 
 **Screenshot** 
 

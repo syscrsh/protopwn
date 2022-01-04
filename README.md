@@ -25,7 +25,7 @@ There are also countless writeups and walkthroughs already out there (like the e
 
 **Bugs**
 
-* There is a high likelyhood that atleast some of the solutions won't work for you as-is.
+* There is a high likelihood that atleast some of the solutions won't work for you as-is.
   This is due to stack-based exploits being extremely finicky to get right and reliable for every machine configuration, atleast 
   when used in simple ways like here. So expect to do some tweaking if you want this to work.
 

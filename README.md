@@ -29,8 +29,9 @@ There are also countless writeups and walkthroughs already out there (like the e
   This is due to stack-based exploits being extremely finicky to get right and reliable for every machine configuration, atleast 
   when used in simple ways like here. So expect to do some tweaking if you want this to work.
 
-* In the `format4` level, I have no idea why it won't work when calling the binary from python with `Popen`. (See source for details)
-  The payload itself works, if you have any idea why, I would love to know :)
+* In the `format4` level, I have no idea why it won't work when calling the binary from python with `Popen` (See source for details).
+
+  The payload itself works, if you have any idea why the python code won't, I would love to know :)
 
 **Screenshot** 
 

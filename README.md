@@ -3,7 +3,7 @@
 This is collection of exploit scripts that solve the well-known Protostar exploitation challenges.
 The challenges itself are quite old and the VM itself does not use any mitigations like ASLR or NX.
 Despite that, the later levels can be quite challenging for someone inexperienced, so I would suggest you read the recommended papers _before_ each challenge.
-Trust me, I certainly had my bang-head-against-keayboard moments with this one.
+Trust me, I certainly had my bang-head-against-keyboard moments with this one.
 
 There are also countless writeups and walkthroughs already out there (like the excellent series from @LiveOverflow), so I won't bother with yet another one.
 

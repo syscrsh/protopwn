@@ -7,52 +7,52 @@ from finalsolver import *
 PATH="/opt/protostar/bin/"
 
 def banner():
-	line = str()
-	line += "\n+------------------------------+\n"
-	line += "| Protostar Exploit v1.0       |\n"
-	line += "+------------------------------+\n"
-	line += "| coded with <3 by systemcrash |\n"
-	line += "| Twitter - @syscrsh           |\n"
-        line += "| https://blog.systemcra.sh    |\n"
-	line += "| October 2021                 |\n"
-	line += "+------------------------------+\n"
-	print(line)
+    line = str()
+    line += "\n+------------------------------+\n"
+    line += "| Protostar Exploit v1.0       |\n"
+    line += "+------------------------------+\n"
+    line += "| coded with <3 by systemcrash |\n"
+    line += "| Twitter - @syscrsh           |\n"
+    line += "| https://blog.systemcra.sh    |\n"
+    line += "| October 2021                 |\n"
+    line += "+------------------------------+\n"
+    print(line)
 
 def start(levelname):
-	print("[ * ] --------- [ " + levelname + " ] -------")
+    print("[ * ] --------- [ " + levelname + " ] -------")
 
 def ok(msg):
-	print("[ + ] " + msg)
+    print("[ + ] " + msg)
 
 def dump(payload):
-	print("[ ! ] dumping payload to disk ...")
-	f = open("/tmp/payload_dump", "w")
-	f.writelines(payload)
-	f.close()
-	exit
+    print("[ ! ] dumping payload to disk ...")
+    f = open("/tmp/payload_dump", "w")
+    f.writelines(payload)
+    f.close()
+    exit
 
 def warn(msg):
-	print("[ ! ] " + msg)
+    print("[ ! ] " + msg)
 
 def dbg(msg):
-	print("[ ! ] " + msg)
-	exit()
+    print("[ ! ] " + msg)
+    exit()
 
 def info(msg):
-	print("[ * ] " + msg)
+    print("[ * ] " + msg)
 
 def content(msg):
-	print("[ * ] output -> { " + msg.strip() + " }")
+    print("[ * ] output -> { " + msg.strip() + " }")
 
 def err(msg):
-	print("[ x ] " + msg)
-	exit()
+    print("[ x ] " + msg)
+    exit()
 
 if __name__ == "__main__":
-	os.chdir(PATH)
-	banner()
-	format_solve()
-	stack_solve()
-	net_solve()
-	heap_solve()
-	final_solve()
+    os.chdir(PATH)
+    banner()
+    format_solve()
+    stack_solve()
+    net_solve()
+    heap_solve()
+    final_solve()

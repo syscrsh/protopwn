@@ -13,7 +13,7 @@ There are also countless writeups and walkthroughs already out there (like the e
 
 2. Just copy the protopwn folder into the VM
 
-    * `scp -r protopwn user@<Protostar IP>`
+    * `scp -r protopwn user@<Protostar IP>:`
 
 3. Change into the challenge directory
 

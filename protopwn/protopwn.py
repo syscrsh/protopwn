@@ -8,14 +8,14 @@ PATH="/opt/protostar/bin/"
 
 def banner():
     line = str()
-    line += "\n+------------------------------+\n"
-    line += "| Protostar Exploit v1.0       |\n"
-    line += "+------------------------------+\n"
-    line += "| coded with <3 by systemcrash |\n"
-    line += "| Twitter - @syscrsh           |\n"
-    line += "| https://blog.systemcra.sh    |\n"
-    line += "| October 2021                 |\n"
-    line += "+------------------------------+\n"
+    line += "\n+-------------------------------+\n"
+    line += "| Protostar Exploit v1.0        |\n"
+    line += "+-------------------------------+\n"
+    line += "| written with <3 and coffee by |\n"
+    line += "| Twitter - @systemcra_sh       |\n"
+    line += "| https://blog.systemcra.sh     |\n"
+    line += "| October 2021                  |\n"
+    line += "+-------------------------------+\n"
     print(line)
 
 def start(levelname):
